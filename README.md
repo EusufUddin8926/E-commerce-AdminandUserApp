@@ -3,7 +3,7 @@
 In this project, Have two Panel, One is User Panel, and Another is Admin Panel. User first Register using fullName,Email and password. Then User able to Login. After Login User Can show Product and can Buy any Product.User Panel has Notification settings to enable System Notification.  And For Admin Panel, Admin First Login with Specific Email and Password which are Provide by authority. After login Admin can See order Details which already confirm by User. Admin can able to change user Order status with "Accept", "On the Way","Delivered", and "Cancel" and the Same time User can see the Order Status.
 #
 
-### Download Essential file With EXE file 
+### Download APK file 
 https://drive.google.com/drive/folders/1LelVNcAHEQLmr41fkkj3jDDQkIS2oRJQ?usp=sharing
 #
 
