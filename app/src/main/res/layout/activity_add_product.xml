@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_arraw_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Product"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarId">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/productIconIv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_shopping_coloured"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="1dp" />
+
+        <EditText
+            android:id="@+id/productNameIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productIconIv"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_rect02"
+            android:hint="Product Name"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/productPriceIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productNameIv"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_rect02"
+            android:hint="Product Price"
+            android:inputType="numberDecimal|number"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/addProductBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productPriceIv"
+            android:layout_centerHorizontal="true"
+            android:minWidth="150dp"
+            android:text="Add Product"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
